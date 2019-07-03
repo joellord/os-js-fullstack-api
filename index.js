@@ -1,5 +1,8 @@
 const app = require("express")();
 const PORT = process.env.PORT || 8888;
+const cors = require("cors");
+
+app.use(cors());
 
 app.get("/health", (req, res) => {
     res.send((new Date()).toString()).status(200);
