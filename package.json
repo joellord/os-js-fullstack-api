@@ -1,0 +1,22 @@
+{
+  "name": "os-js-fullstack-api",
+  "version": "1.0.0",
+  "description": "Sample application for OpenShift JavaScript FullStack demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joellord/os-js-fullstack-api.git"
+  },
+  "author": "Joel Lord <joelphy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joellord/os-js-fullstack-api/issues"
+  },
+  "homepage": "https://github.com/joellord/os-js-fullstack-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
